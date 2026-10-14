@@ -1,0 +1,9 @@
+# SQL Debugging & Optimization Agent
+streamlit>=1.35.0
+rich>=13.0.0
+sqlparse>=0.5.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+google-genai>=2.0.0
+openai>=1.30.0
+pandas>=2.0.0
