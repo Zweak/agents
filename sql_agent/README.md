@@ -43,13 +43,21 @@ flowchart TD
    - **LLM Engine:** Integrates Google Gemini (`gemini-2.5-flash`) and OpenAI (`gpt-4o`).
 5. **Side-by-Side Diff & Index Engineering:** Generates unified diffs and production-ready `CREATE INDEX` statements with technical rationales.
 
----
-
 ## 🚀 Quick Start (Bash)
 
-### 1. Installation
-All required dependencies are specified in `requirements.txt`:
+### 1. Environment Setup (venv)
+Set up an isolated virtual environment and install the required dependencies:
+
 ```bash
+# 1. Create a virtual environment
+python -m venv .venv
+
+# 2. Activate the virtual environment
+# On Linux/macOS or Git Bash (Windows):
+source .venv/bin/activate 2>/dev/null || source .venv/Scripts/activate
+
+# 3. Install dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
